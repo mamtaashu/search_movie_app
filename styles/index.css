@@ -1,0 +1,95 @@
+body{
+    background-color:bisque;
+}
+
+#navbar{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height:50px;
+    /* color:white; */
+    background-color: plum;
+    border-radius: 30px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+}
+h2{
+    color:wheat;
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+#h2{
+    /* border: 1px solid red; */
+    height: 30px;
+    margin-top: 7px;
+}
+#query{
+    width:300px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 15px;
+border-color: aquamarine;
+text-align: center;
+border: none;
+outline: none;
+}
+
+
+#hotels_list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+.boxex{
+    border:1px solid red;
+height:100px;
+width:100px;
+
+}
+
+
+.images{
+    height: 100%;
+    width: 100%;
+}
+
+#login{
+    font-size: 25px;
+    /* text-decoration: none; */
+    margin-top: 7px;
+}
+
+
+#signup{
+    font-size: 25px;
+    /* text-decoration: none; */
+    margin-top: 7px;
+}
+a{
+    text-decoration: none;
+}
+
+#hotels_list{
+    margin-top: 20px;
+    /* gap:-10px */
+}
+
+
+#hotels_list>div>p{
+  color:green;
+  text-align: center;
+}
+
+
+#hotels_list>div>button{
+    /* margin-left: 100px; */
+    outline: none;
+    border: none;
+}
+
+#hotels_list>div>image{
+    height: 50px;
+}
