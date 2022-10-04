@@ -90,7 +90,7 @@ button.addEventListener("click",function()
 
 
 
-box.append(image,name,price,ratings,button)
+box.append(image,name,price,ratings)
 document.querySelector("#hotels_list").append(box)
 
   });  
